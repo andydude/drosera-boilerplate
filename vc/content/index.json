@@ -1,0 +1,23 @@
+{
+    "page_title": "RDF vocabularies",
+    "page_description": "A list of RDF vocabularies Drosera knows.",
+    "copyright": "2010-2013 Andrew Robbins",
+    "vc_list": [
+        {
+            "path": "vc/dublin-core-elements/",
+            "text": "dublin-core-elements"
+        },
+        {
+            "path": "vc/dublin-core-model/",
+            "text": "dublin-core-model"
+        },
+        {
+            "path": "vc/dublin-core-terms/",
+            "text": "dublin-core-terms"
+        },
+        {
+            "path": "vc/dublin-core-types/",
+            "text": "dublin-core-types"
+        }
+    ]
+}

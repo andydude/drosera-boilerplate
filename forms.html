@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" xmlns="http://www.w3.org/1999/xhtml"> <!--<![endif]-->
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bootstrap 3 Forms Examples</title>
+    <meta name="description" content="Examples of web forms made with Bootstrap 3">
+    <meta name="viewport" content="width=device-width">
+    <base href="http://localhost/~alt/drosera-boilerplate/"/>
+    <link rel="stylesheet" href="css/vendor/bootstrap-3.0.0.min.css">
+    <link rel="stylesheet" href="css/vendor/bootstrap-theme-3.0.0.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <script src="js/vendor/require-2.1.8.min.js"></script>
+    <script src="js/vendor/jquery-1.10.2.min.js"></script>
+    <script src="js/vendor/bootstrap-3.0.0.min.js"></script>
+  </head>
+  <body class="ds-gradient ds-navbar-body">
+    <!--[if lt IE 9]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please 
+        <a href="http://browsehappy.com/">upgrade your browser</a> 
+        to improve your experience.
+      </p>
+    <![endif]-->
+    <div class="navbar navbar-inverse navbar-fixed-top ds-navbar" role="navigation">
+      <div class="container">
+        <div class="navbar-header ds-navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".ds-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#" tabindex="2">Drosera</a>
+        </div>
+        <div class="nav-collapse ds-navbar-collapse in">
+          <ul class="nav navbar-nav">
+            <li><a href="http://blog.drosoft.org/" tabindex="3">Blog
+                <span class="glyphicon glyphicon-chevron-down"></span>
+            </a></li>
+            <li class="dropdown">
+              <a class="pull-left ds-navpair-title" href="data.html"  tabindex="4">Data</a>
+              <a class="pull-left ds-navpair-arrow dropdown-toggle" data-toggle="dropdown" tabindex="5">
+                <span class="glyphicon glyphicon-chevron-down"></span>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="db/">Languages</a></li>
+                <li><a href="cd/">Dictionaries</a></li>
+                <li><a href="ns/">Namespaces</a></li>
+                <li><a href="vc/">Vocabularies</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a class="pull-left ds-navpair-title" href="tr/" tabindex="6">Specs</a>
+              <a class="pull-left ds-navpair-arrow dropdown-toggle" data-toggle="dropdown" tabindex="7">
+                <span class="glyphicon glyphicon-chevron-down"></span>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="tr/dro.html">DRO</a></li>
+                <li><a href="tr/drox.html">DROX</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="navbar-form navbar-right ds-search-form hidden-xs" action="/search" role="search">
+            <fieldset class="ds-search-fieldset">
+              <legend class="sr-only">Search</legend>
+              <span class="form-group ds-search-query-group">
+                <label class="sr-only" for="ds-search-query">Query</label>
+                <input class="form-control ds-search-query" id="ds_search_query" name="q" type="search" placeholder="Search" tabindex="8">
+              </span>
+              <button class="btn btn-success ds-search-btn" type="submit" tabindex="9"><span class="glyphicon glyphicon-search"/></button>
+            </fieldset>
+          </form>
+          <!--ul class="nav navbar-nav navbar-right">
+            <li><a class="navbar-brand pull-right" href="#">GitHub</a></li>
+          </ul-->
+        </div><!-- END .ds-navbar-collapse -->
+      </div><!-- END .container -->
+    </div><!-- END .ds-navbar -->
+    <div class="container">
+      <header>    <div>Header</div></header>
+      <div class="jumbotron">
+        <h2>jumbotron</h2>
+      </div>
+      <main>
+        <p>This is the primary content</p>
+      </main>
+      <footer>    <footer class="text-muted visible-md visible-lg">
+      <p>&copy; 2010-2014 <a href="ajr/">Andrew Robbins</a></p>
+    </footer>
+</footer>
+    </div>
+    <!-- //-beg- concat_js -->
+    <script src="js/vendor/h5bp-plugins-4.2.0.js"></script>
+    <script src="js/vendor/sizzle.amd.js"></script>
+    <script src="js/vendor/d3.v3.min.js" charset="UTF-8"></script>
+    <script src="js/vendor/modernizr.amd.js"></script>
+    <script src="js/vendor/mustache-0.7.3.js"></script>
+    <script src="js/vendor/jquery.mustache-0.2.8.js"></script>
+    <script src="js/vendor/drosera-config.js"></script>
+    <script src="js/vendor/drosera-bootstrap.js"></script>
+    <script src="js/vendor/drosera-modernizr.js"></script>
+    <script src="js/vendor/drosera-version.js"></script>
+    <script src="js/main.js"></script>
+    <!-- //-end- concat_js -->
+  </body>
+</html>
+
